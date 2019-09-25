@@ -14,7 +14,7 @@ $letters.toCharArray() |% {
 		'A' { $spellout+="alpha " }
 		'B' { $spellout+="bra vow " }
 		'C' { $spellout+="charlie " }
-        'D' { $spellout+="delta "}
+		'D' { $spellout+="delta "}
 		'E' { $spellout+="eko" }
 		'F' { $spellout+="fuxtrut " }
 		'G' { $spellout+="golf " }
@@ -43,7 +43,7 @@ $letters.toCharArray() |% {
 $spellout += ",DASH. "
 
 $numbers.toCharArray() |% {
-			switch($_) {
+	switch($_) {
 		'0' { $spellout+="nuhduh-zayro " }
 		'1' { $spellout+="oonuhwun " }
 		'2' { $spellout+="beessohtoo " }
